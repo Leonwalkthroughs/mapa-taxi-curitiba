@@ -23,4 +23,3 @@ Os pontos são simulados para fins educacionais, mas representam a distribuiçã
 
 ---
 
-Feito por você 😈
