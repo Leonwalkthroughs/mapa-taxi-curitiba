@@ -65,3 +65,12 @@ function localizar() {
 function resetMap() {
     map.setView([-25.4284, -49.2733], 13);
 }
+
+function rota(user, taxi) {
+    L.Routing.control({
+        waypoints: [
+            L.latLng(user.lat, user.lng),
+            L.latLng(taxi.lat, taxi.lng)
+        ]
+    }).addTo(map);
+}
